@@ -12,7 +12,7 @@ namespace ch02
 {
     internal class _6_string
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             string greeting = "good morning";
             Console.WriteLine("greeting :" + greeting);
