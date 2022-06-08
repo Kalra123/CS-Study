@@ -15,6 +15,8 @@ namespace book.ch02
             // 논리부정 연산자
             Console.WriteLine(!(52 < 273));
             Console.WriteLine(!(52 > 273));
+            // 논리곱 연산자
+            Console.WriteLine(52 && 273);
         }
     }
 }
