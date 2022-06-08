@@ -19,7 +19,7 @@ namespace ch04
             int r1 = Plus(1, 2);
             int r2 = Plus(1, 2, 3);
             double r3 = Plus(1.01, 2.3);
-            string r4 = Plus("Hello ", "World");
+            string r4 = Plus();
 
             Console.WriteLine("r1 : " + r1);
             Console.WriteLine("r2 : " + r2);

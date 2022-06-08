@@ -11,7 +11,7 @@ namespace ch04
 {
     internal class _4_methodstack
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int result = 0;
             int n1 = 1;
