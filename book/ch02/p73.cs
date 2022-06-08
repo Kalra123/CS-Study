@@ -18,11 +18,11 @@ namespace book.ch02
             Console.WriteLine(!(52 > 273));
 
             // 논리합 연산자
-            Console.WriteLine(||true);
-            Console.WriteLine(||false);
+            Console.WriteLine(true);
+            Console.WriteLine(false);
 
-            Console.WriteLine(||(52 < 273));
-            Console.WriteLine(||(52 < 273));
+            Console.WriteLine((52 < 273));
+            Console.WriteLine((52 < 273));
         }
     }
 }
