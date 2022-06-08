@@ -4,17 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch05.sub1
+namespace ch05.Sub2
 {
     internal class Account
     {
-        // 속성
-        public string Bank;
-        public string Id;
-        public string Name;
-        public int Balance;
+        // 속성 - 무조건 private 캡슐화 적용
+        private string Bank;
+        private string Id;
+        private string Name;
+        private int Balance;
 
-        // 기능
+        //  생성자 - 캡슐화된 속성을 초기화 시키기 위한 메서드
+        public Account(string Bank, string Id, string Name, int Balance)
+        {
+            this.Bank = Bank;
+            this.Id = Id;
+            this.Name = Name;
+            this.Balance = Balance;
+
+        }
+
+        // 기능 
         public void Deposit(int money) 
         {
             this.Balance += money;

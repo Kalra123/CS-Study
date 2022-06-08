@@ -20,7 +20,7 @@ namespace ch05
     {
         public static object BWM { get; private set; }
 
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // 객체 생성
             Car sonata = new Car();
@@ -40,14 +40,35 @@ namespace ch05
             BMW M340i = new BMW();
 
             BMW.BMWName = "BMW 340i";
-            BMW.BMWColor = "Green";
+            BMW.BMWColor = "검정색";
             BMW.BMWSpeed = 0;
+
+            // 객체 기능
+            BMW.SpeedUp(10);
+            BMW.SpeedDown(10);
+            BMW.SpeedUp(10);
+            BMW.Show();
+            
+            // 객체 생성과 초기화
+
+            Car BMW = new BMW("차량명", "차량 색깔", 0);
+
+            BMW.SpeedUp(60);
+            BWM.Show();
+
+            sonata.Name = "EF 소나타";      //setter
+            sonata.Speed = -100;
+
+            //getter 실행
+            Console.WriteLine("sonata 객체 name :"+sonata.Name);
+
+
 
             // Account 객체생성
             Account kb = new Account();
-            kb.Bank = "국민은행"
+            kb.Bank = "국민은행";
             kb.Id = "101-12-1234";
-            kb.Name = "김유신"
+            kb.Name = "김유신";
             kb.Balance = 10000;
 
             //기능
