@@ -8,5 +8,13 @@ namespace book.ch02
 {
     internal class p93
     {
+        static void Main1(string[] args)
+        {
+            int number = 10;
+            number++;
+            Console.WriteLine(number);
+            number--;
+            Console.WriteLine(number);
+        }
     }
 }

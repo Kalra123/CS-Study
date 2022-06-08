@@ -8,5 +8,16 @@ namespace book.ch02
 {
     internal class p86
     {
+        static void Main(string[] args)
+        {
+            char a = 'a';
+            char b = 'b';
+
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
+            Console.WriteLine(a % b);
+        }
     }
 }

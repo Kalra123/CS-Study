@@ -8,5 +8,15 @@ namespace book.ch02
 {
     internal class p90
     {
+        static void Main1(string[] args)
+        {
+            int output = 0;
+            output += 52;
+            output += 273;
+            output += 103;
+            
+            Console.WriteLine(output);
+        }
+        
     }
 }

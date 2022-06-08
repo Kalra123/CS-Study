@@ -8,5 +8,9 @@ namespace book.ch02
 {
     internal class p88
     {
+        static void Main1(string[] args)
+        {
+            Console.WriteLine("string: " + sizeof(string));
+        }
     }
 }

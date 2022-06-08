@@ -8,5 +8,18 @@ namespace book.ch02
 {
     internal class p85
     {
+        static void Main1(string[] args)
+        {
+            char a = 'a';
+            Console.WriteLine(a);
+        }
+        static void Main1(string[] args)
+        {
+            Console.WriteLine("int: "+sizeof(int));
+            Console.WriteLine("long: "+sizeof(long));
+            Console.WriteLine("float: "+sizeof(float));
+            Console.WriteLine("double: "+sizeof(double));
+            Console.WriteLine("char: "+sizeof(char));
+        }
     }
 }

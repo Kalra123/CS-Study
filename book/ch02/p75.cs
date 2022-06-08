@@ -16,7 +16,7 @@ namespace book.ch02
             Console.WriteLine(!(52 < 273));
             Console.WriteLine(!(52 > 273));
             // 논리곱 연산자
-            Console.WriteLine(52 && 273);
+            Console.WriteLine(52 > 273);
         }
     }
 }
