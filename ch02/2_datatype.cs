@@ -18,7 +18,7 @@ namespace ch02
 {
     internal class _2_datatype
     {
-        static void Main2(string[] args)
+        static void Main1(string[] args)
         {
             //정수형
             sbyte num1 = 127;  //1sbyte
