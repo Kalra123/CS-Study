@@ -36,7 +36,7 @@ namespace ch05
             sonata.SpeedDown(20);
             sonata.Show();
 
-            // 객체 생성 (BMW, 검정색)
+            /* 객체 생성 (BMW, 검정색)
             BMW M340i = new BMW();
 
             BMW.BMWName = "BMW 340i";
@@ -55,7 +55,7 @@ namespace ch05
 
             BMW.SpeedUp(60);
             BWM.Show();
-
+            */
             sonata.Name = "EF 소나타";      //setter
             sonata.Speed = -100;
 
@@ -63,7 +63,7 @@ namespace ch05
             Console.WriteLine("sonata 객체 name :"+sonata.Name);
 
 
-
+            /*
             // Account 객체생성
             Account kb = new Account();
             kb.Bank = "국민은행";
@@ -75,7 +75,7 @@ namespace ch05
             kb.Deposit = (25000);
             kb.Withdraw = (5000);
             kb.Show();
-
+            */
 
         }
     }
