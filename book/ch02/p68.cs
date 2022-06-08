@@ -8,7 +8,7 @@ namespace book.ch02
 {
     internal class p68
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine(1.0 + 2.0);
             Console.WriteLine(1.0 - 2.0);
