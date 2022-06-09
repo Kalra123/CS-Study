@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch05.Sub3
+namespace ch05.Sub4
 {
     internal class Car      //car 라는 그룹, 클래스 하위 매개변수와 메서드 총합 6개
     {
@@ -32,6 +32,7 @@ namespace ch05.Sub3
             Console.WriteLine("챠량 속도 : "+Speed);
         }
     }
+    /*
     internal class BMW
     {
         // 속성,필드
@@ -40,14 +41,7 @@ namespace ch05.Sub3
         private int BMWSpeed;
         private static int count;       //정적변수
         
-        // Getter, Setter --> C#에서는 프로퍼티
-        public string Name { get { return Name; } set { Name = value; }}
-        public string Color { get { return Color; } set { Color = value; }}
-        public string Speed { get { return Speed; } set { Speed = value; }}
-
-        
-
-
+      
         // 생성자
         public BMW(string BMWName, string BMWColor, int BMWSpeed)
         {
@@ -56,29 +50,7 @@ namespace ch05.Sub3
             this.BMWSpeed = BMWSpeed;
 
         }
-        // 소멸자
-        ~BMW()
-        {
-            Console.WriteLine("{0} BMW 소멸자 실행.", Name);
-        }
-
-
-        public void SpeedUp(int Speed)
-        {
-            this.BMWSpeed += Speed;
-        }
-        public void SpeedDown(int Speed)
-        {
-            this.BMWSpeed -= Speed;
-        }
-        public void Show ()
-        {
-            Console.WriteLine("=====================");
-            Console.WriteLine("차량명 :"+BMWName);
-            Console.WriteLine("차량 색깔 :" + BMWColor);
-            Console.WriteLine("차량 속도 :"+BMWSpeed);
-            Console.WriteLine("전체 차량 수:".Count++);
-        }
-
+       
+    */
     }
 }

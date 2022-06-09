@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ch05.Sub2
+namespace ch05.Sub4
 {
     internal class Account
     {
         // 속성 - 무조건 private 캡슐화 적용
-        private string Bank;
-        private string Id;
-        private string Name;
-        private int Balance;
+        protected string Bank;
+        protected string Id;
+        protected string Name;
+        protected int Balance;
 
         //  생성자 - 캡슐화된 속성을 초기화 시키기 위한 메서드
         public Account(string Bank, string Id, string Name, int Balance)
